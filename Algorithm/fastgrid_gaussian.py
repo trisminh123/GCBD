@@ -2,10 +2,10 @@ import numpy as np
 from scipy.spatial.distance import pdist, squareform
 from scipy.sparse import csr_matrix
 
-from unique_rows import unique_rows
-from single_peel import single_peel
-from link_core import link_core
-from merge_core_nd import merge_core_nd
+from Algorithm.unique_rows import unique_rows
+from Algorithm.single_peel import single_peel
+from Algorithm.link_core import link_core
+from Algorithm.merge_core_nd import merge_core_nd
 
 
 def fastgrid_gaussian(
